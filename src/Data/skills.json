@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "id": 4,
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "id": 5,
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+
+  {
+    "id": 6,
+    "title": "ExpressJs",
+    "imageSrc": "skills/express.png"
+  },
+
+  {
+    "id": 7,
+    "title": "Pug",
+    "imageSrc": "skills/pug.png"
+  },
+  {
+    "id": 8,
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "id": 9,
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "id": 10,
+    "title": "NextJs",
+    "imageSrc": "skills/nextjs.png"
+  },
+  {
+    "id": 11,
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
+  },
+  {
+    "id": 12,
+    "title": "Blender",
+    "imageSrc": "skills/blender.png"
+  },
+
+  {
+    "id": 13,
+    "title": "ThreeJs",
+    "imageSrc": "skills/threejs.png"
+  },
+  {
+    "id": 14,
+    "title": "Postgres",
+    "imageSrc": "skills/postgre.png"
+  },
+  {
+    "id": 15,
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  },
+  {
+    "id": 16,
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  }
+]

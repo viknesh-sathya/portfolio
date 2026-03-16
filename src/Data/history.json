@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "role": "Systems Engineer",
+    "organisation": "Infosys",
+    "startDate": "Apr, 2022",
+    "endDate": "Dec, 2023",
+    "experiences": [
+      "Developed responsive UIs with React, HTML, CSS, JavaScript",
+      "Collaborated with design teams to deliver production-ready features"
+    ],
+    "imageSrc": "history/logo.png"
+  },
+  {
+    "id": 2,
+    "role": "Senior Systems Engineer",
+    "organisation": "Infosys",
+    "startDate": "Jan, 2024",
+    "endDate": "Sept, 2025",
+    "experiences": [
+      "Built APIs with Node.js and Express to support application features",
+      "Worked on database design and queries using MongoDB with Mongoose",
+      "Delivered end-to-end modules with React and JavaScript integration, improving performance in production"
+    ],
+    "imageSrc": "history/logo.png"
+  },
+  {
+    "id": 3,
+    "role": "Technology Analyst",
+    "organisation": "Infosys",
+    "startDate": "Oct, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Designed and developed scalable services with NestJS for enterprise apps",
+      "Implemented complex data models and queries with MongoDB and Postgres",
+      "Deployed applications to AWS for production use"
+    ],
+    "imageSrc": "history/logo.png"
+  }
+]

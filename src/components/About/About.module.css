@@ -1,0 +1,138 @@
+.container {
+  position: relative;
+  background: rgba(0, 0, 0, 0.202);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-inline: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.aboutImage {
+  width: 50%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.aboutItem {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 20px;
+  background-image: linear-gradient(
+    -90deg,
+    rgba(133, 133, 133, 0.42) 0%,
+    rgba(44, 44, 44, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: background-size 0.4s;
+  gap: 20px;
+}
+.aboutItem img {
+  width: 50px;
+}
+.aboutItem:hover {
+  background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+  color: rgba(255, 174, 0, 0.905);
+  color: #7089e7;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.aboutItem p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* ========================= */
+/* MEDIA QUERIES             */
+/* ========================= */
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 40px;
+    margin-inline: 5%;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutImage {
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .aboutItem {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutItem img {
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .aboutItem h3 {
+    font-size: 22px;
+  }
+
+  .aboutItem p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-top: 90px;
+  }
+  .title {
+    font-size: 28px;
+    text-align: center;
+    /* margin-bottom: 15px; */
+  }
+
+  .aboutItem h3 {
+    font-size: 20px;
+  }
+
+  .aboutItem p {
+    font-size: 16px;
+  }
+  .aboutImage {
+    margin-bottom: 0;
+  }
+}

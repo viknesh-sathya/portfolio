@@ -1,0 +1,155 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+  margin-inline: 10%;
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  font-family: var(--font-roboto);
+  z-index: 1;
+}
+
+.title {
+  font-weight: 900;
+  margin-bottom: 33px;
+}
+
+.title span {
+  font-size: 72px;
+  color: rgba(255, 174, 0, 1);
+}
+
+.description {
+  font-size: 30px;
+
+  margin-bottom: 52px;
+  line-height: 1.2;
+}
+
+.contactBtn {
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.heroImg {
+  width: 50%;
+  z-index: 1;
+  border-radius: 50%;
+  animation: floating 3s infinite ease-in-out;
+}
+.topBlur,
+.bottomBlur {
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  min-width: 250px;
+  min-height: 250px;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+  animation: floating 3s infinite ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(-5px, 0);
+  }
+  50% {
+    transform: translate(5px, 10px);
+  }
+  100% {
+    transform: translate(-5px, 0);
+  }
+}
+
+.topBlur {
+  top: -40vh;
+  left: -15vw;
+}
+
+.bottomBlur {
+  top: 240px;
+  right: -25vw;
+}
+
+/* ========================= */
+/* MEDIA QUERIES             */
+/* ========================= */
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+  .title span {
+    font-size: 56px;
+  }
+  .description {
+    font-size: 24px;
+  }
+  .contactBtn {
+    font-size: 24px;
+    padding: 14px 22px;
+  }
+  .heroImg {
+    width: 45%;
+  }
+}
+
+/* Small tablets / large phones */
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-inline: 5%;
+  }
+  .content {
+    align-items: center;
+  }
+  .title span {
+    font-size: 48px;
+  }
+  .description {
+    font-size: 22px;
+  }
+  .contactBtn {
+    font-size: 22px;
+    padding: 12px 20px;
+  }
+  .heroImg {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+}
+
+/* Phones */
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 28px;
+  }
+  .title span {
+    font-size: 36px;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .contactBtn {
+    font-size: 18px;
+    padding: 10px 18px;
+  }
+  .heroImg {
+    width: 60%;
+  }
+}

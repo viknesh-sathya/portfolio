@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Natours",
+    "imageSrc": "natours.png",
+    "skills": [
+      "Node",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Pug",
+      "Stripe",
+      "JavaScript",
+      "CSS"
+    ],
+    "github": "https://github.com/viknesh-sathya/Natours",
+    "live": "https://natours-4fdk.onrender.com/"
+  },
+  {
+    "id": 2,
+    "title": "Hot Pizza Hub",
+    "imageSrc": "pizza.png",
+    "skills": ["React", "Tailwind", "Redux", "JavaScript"],
+    "github": "https://github.com/viknesh-sathya/hot-pizza-hub",
+    "live": "https://hot-pizza-hub.vercel.app/"
+  }
+]
