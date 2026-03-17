@@ -11,7 +11,7 @@ export const Hero = () => {
         </h1>
         <p className={styles.description}>
           Full&#8209;stack MERN developer with 4+&nbsp;years of experience. Open
-          to collaborations & opportunities
+          to collaborations & opportunities.
         </p>
 
         <a
