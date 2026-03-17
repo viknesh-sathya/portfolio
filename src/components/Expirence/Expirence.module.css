@@ -48,6 +48,10 @@
 .skillImageContainer img {
   width: 60px;
   border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+.skillImageContainer img:hover {
+  transform: scale(1.5);
 }
 
 .skill p {
