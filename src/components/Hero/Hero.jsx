@@ -14,10 +14,17 @@ export const Hero = () => {
           to collaborations & opportunities.
         </p>
 
-        <a
+        {/* <a
           href="/assets/resume.pdf"
           download="Viknesh-resume.pdf"
           className={styles.contactBtn}
+          onClick={() => alert('Resume will be uploaded soon!')}
+        >
+          Download Resume
+        </a> */}
+        <a
+          className={styles.contactBtn}
+          onClick={() => alert('Resume will be uploaded soon!')}
         >
           Download Resume
         </a>

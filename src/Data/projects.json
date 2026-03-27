@@ -23,5 +23,31 @@
     "skills": ["React", "Tailwind", "Redux", "JavaScript"],
     "github": "https://github.com/viknesh-sathya/hot-pizza-hub",
     "live": "https://hot-pizza-hub.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "Blog Nest",
+    "imageSrc": "blog-nest.png",
+    "skills": [
+      "React",
+      "Tailwind",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Node",
+      "Clerk",
+      "Imagekit",
+      "TanStack React Query"
+    ],
+    "github": "https://github.com/viknesh-sathya/blog-nest-frontend",
+    "live": "https://blog-nest-sepia.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "GreenBin",
+    "imageSrc": "greenbin.png",
+    "skills": ["React", "Tailwind"],
+    "github": "https://github.com/viknesh-sathya/greenbin",
+    "live": "https://greenbin-peach.vercel.app/"
   }
 ]
