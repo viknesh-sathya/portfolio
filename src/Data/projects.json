@@ -6,6 +6,7 @@
     "skills": [
       "Node",
       "Express",
+      "JWT",
       "MongoDB",
       "Mongoose",
       "Pug",
@@ -44,6 +45,24 @@
   },
   {
     "id": 4,
+    "title": "SecureGate",
+    "imageSrc": "secureGate.png",
+    "skills": [
+      "React",
+      "Zustand",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Brevo",
+      "Tailwind",
+      "Framer-motion"
+    ],
+    "github": "https://github.com/viknesh-sathya/secureGate",
+    "live": "https://securegate-5wv8.onrender.com/"
+  },
+  {
+    "id": 5,
     "title": "GreenBin",
     "imageSrc": "greenbin.png",
     "skills": ["React", "Tailwind"],
