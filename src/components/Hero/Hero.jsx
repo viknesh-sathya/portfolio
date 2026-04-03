@@ -31,8 +31,8 @@ export const Hero = () => {
       </div>
       <img
         className={styles.heroImg}
-        src="/assets/hero/hero-img.png"
-        alt="Hero image"
+        src="/assets/hero/hero-man.png"
+        alt="Hero image AI generated"
       />
       <div className={styles.topBlur}></div>
       <div className={styles.bottomBlur}></div>

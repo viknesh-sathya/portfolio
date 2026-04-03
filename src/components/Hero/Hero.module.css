@@ -46,7 +46,7 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 40%;
   z-index: 1;
   border-radius: 50%;
   animation: floating 3s infinite ease-in-out;
@@ -104,7 +104,7 @@
     padding: 14px 22px;
   }
   .heroImg {
-    width: 45%;
+    width: 50%;
   }
 }
 
@@ -150,6 +150,6 @@
     padding: 10px 18px;
   }
   .heroImg {
-    width: 60%;
+    width: 70%;
   }
 }
