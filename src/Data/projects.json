@@ -63,6 +63,27 @@
   },
   {
     "id": 5,
+    "title": "Talkative",
+    "imageSrc": "talkative.png",
+    "skills": [
+      "React",
+      "Zustand",
+      "Express",
+      "Socket.io",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Resend",
+      "Tailwind",
+      "Arcjet",
+      "DaisyUI",
+      "Cloudinary"
+    ],
+    "github": "https://github.com/viknesh-sathya/talkative",
+    "live": "https://talkative-trx6.onrender.com/"
+  },
+  {
+    "id": 6,
     "title": "GreenBin",
     "imageSrc": "greenbin.png",
     "skills": ["React", "Tailwind"],
