@@ -29,7 +29,7 @@ export const Navbar = () => {
           </li>
           <li>
             <a href="#expirence" onClick={() => setMenuIsOpen(false)}>
-              Expirence
+              Experience
             </a>
           </li>
           <li>
