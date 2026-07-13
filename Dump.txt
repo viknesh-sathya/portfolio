@@ -1,0 +1,12 @@
+// {
+//   "id": 1,
+//   "role": "Systems Engineer",
+//   "organisation": "Infosys",
+//   "startDate": "Apr, 2022",
+//   "endDate": "Dec, 2023",
+//   "experiences": [
+//     "Developed responsive UIs with React, HTML, CSS, JavaScript",
+//     "Collaborated with design teams to deliver production-ready features"
+//   ],
+//   "imageSrc": "history/logo.png"
+// },
